@@ -1,5 +1,4 @@
 export default function Header() {
-  // BASE_URL = "/ecocompost-ai/" in production, "/" in dev
   const logoSrc = `${import.meta.env.BASE_URL}logo.png`
 
   return (
