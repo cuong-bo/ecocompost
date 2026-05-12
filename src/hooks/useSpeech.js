@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, useCallback } from "react"
 
 // Bảng thay thế ký hiệu → cách đọc tiếng Việt
 const SYMBOL_MAP = [
-  [/°C/g,       "độ xê"],
+  [/độ xê/g,       "độ xê"],
   [/°F/g,       "độ phờ"],
   [/°/g,        "độ"],
   [/kg\/m²/g,   "ki lô gam trên mét vuông"],
